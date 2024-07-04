@@ -111,3 +111,14 @@ Explanation:
 
 ### 22. Explain the importance of the `<header>` element ?.
 **Answer:** The `<header>` element represents introductory content or a group of navigational links. It typically contains headings, logos, and other introductory content.
+
+### 23. What are some new elements introduced in HTML5?
+**Answer:** Answer: HTML5 introduced several new elements, including:
+- `Semantic elements` : `<article>`, `<section>`, `<header>`, `<footer>`, `<nav>`
+- `Multimedia elements`: `<audio>`, `<video>`
+- `Form elements`: `<datalist>`, `<keygen>`, `<output>`
+- `Graphics elements` : `<canvas>`, `<svg>`
+
+### 24. What is the `<canvas>` element used for?
+
+**Answer**: The `<canvas>` element is used to draw graphics on the web page using JavaScript. It can be used for rendering graphs, game graphics, or other visual images.
