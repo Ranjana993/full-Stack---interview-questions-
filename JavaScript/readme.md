@@ -61,6 +61,10 @@ Arrow function {()=> } is concise way of writing JavaScript functions in shorter
 ### 7. What are template literals?
 **Answer** : Template literals, also known as template strings, are a feature in JavaScript that allow for easier and more flexible string formatting and interpolation. They are enclosed by backticks (`) instead of single or double quotes.
 
+
+### Higher-Order Functions :
+**Answer** : Higher-order functions are a fundamental concept in functional programming. They are functions that can take other functions as arguments, return functions as results, or both. Understanding higher-order functions can significantly enhance your ability to write concise, flexible, and reusable code.
+
 ### JavaScript this Keyword
 **Answer** : In JavaScript, this keyword refers to the current context or scope within which code is executing. Its value is determined by how a function is called, and it can dynamically change depending on the invocation context
 
@@ -72,3 +76,30 @@ Arrow function {()=> } is concise way of writing JavaScript functions in shorter
 - In a function under strict mode, this becomes undefined.
 - During an event, this points to the element that triggered the event.
 - Methods such as call(), apply(), and bind() can reassign this to any desired object.
+
+### Async and Await in JavaScript
+**Answer** : Async and Await in JavaScript are powerful keywords used to handle asynchronous operations with promises. Async functions implicitly return promises, while Await pauses the execution until the promise is resolved. This simplifies asynchronous code and enhances readability by making it appear synchronous.
+
+```
+function asynchronous_operational_method() {
+    let first_promise = 
+        new Promise((resolve, reject) => resolve("Hello"));
+    let second_promise = 
+        new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(" GeeksforGeeks..");
+        }, 1000);
+    });
+    let combined_promise = 
+        Promise.all([first_promise, second_promise]);
+    return combined_promise;
+}
+
+async function display() {
+    let data = await asynchronous_operational_method();
+    console.log(data);
+}
+
+display();
+
+```
