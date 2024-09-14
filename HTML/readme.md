@@ -56,6 +56,10 @@ Block-level elements are crucial for structuring the content and layout of web p
 
 Inline elements are essential for formatting content within block-level elements without disrupting the flow of the document.
 
+### 8. Semantic HTML
+**Answer:** Semantic element clearly describes its meaning to both the browser and the developer. In HTML, semantic element are the type of elements that can be used to define different parts of a web page such as `<form>`, `<table>`, `<article>`, `<header>`, `<footer>`, etc.
+
+
 
 ### 8. Explain the difference between `<div>` and `<span>` elements.
 **Answer:** `<div>` is a block-level element used to group larger sections of HTML, while `<span>` is an inline element used to group small chunks of text or other inline elements.
@@ -122,3 +126,17 @@ Explanation:
 ### 24. What is the `<canvas>` element used for?
 
 **Answer**: The `<canvas>` element is used to draw graphics on the web page using JavaScript. It can be used for rendering graphs, game graphics, or other visual images.
+
+
+
+
+### 25. Heading Tags
+- heading 1
+- heading 2
+- heading 3
+- heading 4
+- heading 5
+- heading 6
+
+
+
